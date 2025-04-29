@@ -2,9 +2,9 @@ public class App {
     public static void main(String[] args) {
 
         MetodosOrdenamiento ordenador = new MetodosOrdenamiento();
-        int[] arregloBurbuja = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloSeleccion = { 34, 2, 10, 6, 7, 5, 1, 15 };
-        int[] arregloInsercion = { 34, 2, 10, 6, 7, 5, 1, 15 };
+        int[] arregloBurbuja = {34, 2, 10, 6, 7, 5, 1, 15};
+        int[] arregloSeleccion = {34, 2, 10, 6, 7, 5, 1, 15};
+        int[] arregloInsercion = {34, 2, 10, 6, 7, 5, 1, 15};
 
         // Insctucciones:
         // Todas las llamadas a los metodos deberan estar descomentadas y se debera
@@ -24,17 +24,17 @@ public class App {
 
         // Metodo burbujaTradicionalSegundo
         int[] arregloBurbujaOrdenado2 =
-         ordenador.burbujaTradicionalSegundo(arregloBurbuja);
-         System.out.println(
-         "Resultado burbuja tradicional Metodo 2: " +
-         java.util.Arrays.toString(arregloBurbujaOrdenado2));
+                ordenador.burbujaTradicionalSegundo(arregloBurbuja);
+        System.out.println(
+                "Resultado burbuja tradicional Metodo 2: " +
+                        java.util.Arrays.toString(arregloBurbujaOrdenado2));
 
         // // // Metodo burbujaTradicionalTercero
         int[] arregloBurbujaOrdenado3 =
                 ordenador.burbujaTradicionalTercero(arregloBurbuja);
         System.out.println(
-                 "Resultado burbuja tradicional Metodo 3: " +
-                         java.util.Arrays.toString(arregloBurbujaOrdenado3));
+                "Resultado burbuja tradicional Metodo 3: " +
+                        java.util.Arrays.toString(arregloBurbujaOrdenado3));
 
         // Metodo seleccionPrimero
         // int[] arregloSeleccionOrdenado1 =
@@ -77,6 +77,11 @@ public class App {
         // System.out.println(
         // "Resultado selección Metodo 1: " +
         // java.util.Arrays.toString(arregloInsercionOrdenado3));
+
+
+
+        Benchmarking bM = new Benchmarking();
+        System.out.println(bM);
 
     }
 }
