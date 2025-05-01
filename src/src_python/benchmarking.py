@@ -5,6 +5,8 @@ import metodosordenamiento
 class Benchmarking:
     def __init__(self):
         print("Bench inicializando")
+
+    def ejemplo(self): 
         self.mOrdenamiento = metodosordenamiento.MetodoOrdenamiento()  
         self.arreglo = self.build_arreglo(50000)  
 
